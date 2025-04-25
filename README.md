@@ -25,9 +25,15 @@ This is a web application built for the Bajaj Finserv qualifier round. The app h
 ## Installation
 
 Follow the steps below to run this project locally:
+1. Clone the Repository
+To get started with the project, clone the repository to your local machine by running the following command:
+
 git clone https://github.com/sherlockmoriarity/Doctorlist_web_app.git
 
+3. Install Dependencies
+Before running the application, you need to install the project dependencies using npm. To do this, run:
 
+npm install
 ### Prerequisites
 
 Ensure you have [Node.js](https://nodejs.org/) installed on your machine. You can verify this by running:
