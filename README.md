@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Bajaj Finserv Doctor Search App - Qualifier Round Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a web application built for the Bajaj Finserv qualifier round. The app helps users search for doctors based on their specialties, consultation types (Video Consult or In Clinic), fees, and experience. It dynamically filters, sorts, and displays doctor information fetched from a mock API.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Search Bar**: Search for doctors by name.
+- **Filter by Consultation Type**: Filter doctors based on the type of consultation (Video Consult or In Clinic).
+- **Filter by Specialties**: Select one or more specialties to filter doctors.
+- **Sorting**: Sort doctors based on fees or years of experience.
+- **Responsive Design**: The app is mobile-responsive for smooth usage on various devices.
+- **Dynamic URL Parameters**: The URL updates as the user selects filters, making it easy to share search results.
+  
+## Tech Stack
 
-### `npm start`
+- **Frontend**: 
+  - React.js
+  - React Router for navigation
+  - Axios for API requests
+  - CSS for styling
+  
+- **API**: 
+  - Mock API: [Bajaj Finserv API](https://srijandubey.github.io/campus-api-mock/SRM-C1-25.json)
+  
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Follow the steps below to run this project locally:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
 
-### `npm test`
+Ensure you have [Node.js](https://nodejs.org/) installed on your machine. You can verify this by running:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+node -v
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
