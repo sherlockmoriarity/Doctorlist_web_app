@@ -1,0 +1,157 @@
+/* components/FilterPanel.css */
+.filter-panel {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter-section {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.filter-section:last-child {
+  border-bottom: none;
+}
+
+.filter-header {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #333;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.chevron {
+  font-size: 12px;
+  transition: transform 0.3s ease;
+}
+
+.chevron.right {
+  transform: rotate(-90deg);
+}
+
+.chevron.down {
+  transform: rotate(0deg);
+}
+
+.sort-options, .consultation-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-section label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.filter-section input[type="radio"],
+.filter-section input[type="checkbox"] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.specialty-search {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.specialty-search-input {
+  width: 100%;
+  padding: 8px 30px 8px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.search-icon-small {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+  font-size: 14px;
+}
+
+/* Add scrolling to specialty options */
+.specialty-options {
+  display: flex;
+  flex-direction: column;
+  max-height: 200px; /* Set a fixed height */
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding-right: 5px; /* Space for scrollbar */
+}
+
+/* Style the scrollbar */
+.specialty-options::-webkit-scrollbar {
+  width: 6px;
+}
+
+.specialty-options::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.specialty-options::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}
+
+.specialty-options::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+.specialty-label {
+  display: flex;
+  align-items: center;
+  padding: 6px 0;
+}
+
+.specialty-name {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.no-specialties {
+  color: #888;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Additional styling for filters section */
+.filters-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.filters-header h2 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+
+.clear-all {
+  color: #dae5ee;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  background: none;
+  border: none;
+  text-decoration: none;
+}
+
+.clear-all:hover {
+  text-decoration: underline;
+}
