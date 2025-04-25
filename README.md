@@ -25,6 +25,8 @@ This is a web application built for the Bajaj Finserv qualifier round. The app h
 ## Installation
 
 Follow the steps below to run this project locally:
+git clone https://github.com/sherlockmoriarity/Doctorlist_web_app.git
+
 
 ### Prerequisites
 
