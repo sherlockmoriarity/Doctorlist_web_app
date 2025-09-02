@@ -1,6 +1,6 @@
-# Bajaj Finserv Doctor Search App - Qualifier Round Project
+# Doctor Search App 
 
-This is a web application built for the Bajaj Finserv qualifier round. The app helps users search for doctors based on their specialties, consultation types (Video Consult or In Clinic), fees, and experience. It dynamically filters, sorts, and displays doctor information fetched from a mock API.
+The app helps users search for doctors based on their specialties, consultation types (Video Consult or In Clinic), fees, and experience. It dynamically filters, sorts, and displays doctor information fetched from a mock API.
 
 ## Features
 
@@ -20,7 +20,7 @@ This is a web application built for the Bajaj Finserv qualifier round. The app h
   - CSS for styling
   
 - **API**: 
-  - Mock API: [Bajaj Finserv API](https://srijandubey.github.io/campus-api-mock/SRM-C1-25.json)
+  - Mock API: (https://srijandubey.github.io/campus-api-mock/SRM-C1-25.json)
   
 ## Installation
 
